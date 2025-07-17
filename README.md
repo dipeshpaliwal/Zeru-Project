@@ -44,13 +44,8 @@ graph TD
     B --> C[Feature Engineering];
     C --> D[Credit Score Assignment];
     D --> E[Score Normalization];
-    E --> F[Wallet Scores (0-1000)];
+    E --> F[Wallet Scores];
 
----
-
-# 🏦 Aave V2 Wallet Credit Scoring System
-
-This project assigns a transparent, rule-based **credit score (0-1000)** to Ethereum wallets based on their transaction behavior with the **Aave V2** decentralized finance protocol. The score reflects responsible usage and penalizes risky patterns.
 
 ---
 
@@ -137,4 +132,3 @@ Place it in your project directory.
 ```bash
 cd path/to/your/project
 python -m venv venv
-
