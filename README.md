@@ -36,15 +36,6 @@ Given raw, transaction-level data from the Aave V2 protocol:
 
 ---
 
-## 🧱 Solution Architecture
-
-```mermaid
-graph TD
-    A[Raw Transaction JSON Data] --> B[Data Loading]
-    B --> C[Feature Engineering]
-    C --> D[Credit Score Assignment]
-    D --> E[Score Normalization]
-    E --> F[Wallet Scores]
 
 
 
